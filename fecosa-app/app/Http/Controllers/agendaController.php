@@ -11,11 +11,6 @@ class agendaController extends Controller
         return view('agenda.index');
     }
 
-    public function create()
-    {
-        return view('agenda.create');
-    }
-
     public function show($agenda)
     {
         return view('agenda.show', ['agenda' => $agenda]);
